@@ -1,12 +1,23 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import {{NAME}} from "./index"
+import supertype from "./index"
 
 test(({same, end}) => {
   same(
-    {{NAME}}(true),
-    false
+    supertype("a"),
+    "Object"
+  )
+
+  end()
+})
+
+test(({same, end}) => {
+  class Assistant extends class Job {} {}
+
+  same(
+    supertype(new Assistant()),
+    "Job"
   )
 
   end()

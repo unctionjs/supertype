@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/supertype",
   "version": "1.0.0",
-  "description": "",
+  "description": "Return the super type of an value",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/supertype#readme",
+  "repository": "github:unctionjs/supertype",
+  "bugs": "https://github.com/unctionjs/supertype/issues",
   "main": "transpiled/index.js",
   "files": [
     "transpiled/index.js"
@@ -58,5 +58,7 @@
     "nyc": "11.2.1",
     "tap": "10.7.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@unction/type": "2.5.0"
+  }
 }
