@@ -1,16 +1,16 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import supertype from "./index"
+import supertype from "./index";
 
 test(({same, end}) => {
   same(
     supertype("a"),
     "Object"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   class Assistant extends class Job {} {}
@@ -18,7 +18,7 @@ test(({same, end}) => {
   same(
     supertype(new Assistant()),
     "Job"
-  )
+  );
 
-  end()
-})
+  end();
+});
