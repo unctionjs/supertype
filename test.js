@@ -1,7 +1,7 @@
-/* eslint-disable flowtype/require-return-type */
+
 import {test} from "tap";
 
-import supertype from "./index";
+import supertype from "./";
 
 test(({same, end}) => {
   same(
