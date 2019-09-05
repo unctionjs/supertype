@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed => StringType
+> {constructor: {prototype: Object}} => string
 
 Return the super type of an value.
 
