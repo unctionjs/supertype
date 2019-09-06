@@ -1,5 +1,5 @@
 
-import supertype from "./index.ts";
+import supertype from "./index";
 
 test(() => {
   expect(supertype("a")).toEqual("Object");
