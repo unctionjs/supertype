@@ -1,6 +1,6 @@
 {
   "name": "@unction/supertype",
-  "version": "4.13.0",
+  "version": "4.14.0",
   "description": "Return the super type of an value",
   "keywords": [
     "unction",
